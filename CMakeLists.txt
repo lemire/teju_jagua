@@ -135,7 +135,7 @@ endif()
 #-------------------------------------------------------------------------------
 
 add_subdirectory(teju)
-add_subdirectory(cpp)
+#add_subdirectory(cpp)
 
 set(third_party_dir ${CMAKE_SOURCE_DIR}/third-party)
 include(FetchContent)
