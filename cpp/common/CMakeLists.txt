@@ -11,7 +11,6 @@ target_sources(common PRIVATE
 target_include_directories(common
   PUBLIC
     "${CMAKE_SOURCE_DIR}/cpp/common/include"
-  PRIVATE
     "${CMAKE_SOURCE_DIR}"
 )
 

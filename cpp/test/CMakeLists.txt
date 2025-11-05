@@ -1,8 +1,7 @@
 # SPDX-License-Identifier: APACHE-2.0
 # SPDX-FileCopyrightText: 2021-2025 Cassio Neri <cassio.neri@gmail.com>
 
-add_executable(test
-
+add_executable(teju_test
   # Tests
   div10.cpp
   log.cpp
@@ -17,11 +16,7 @@ add_executable(test
   synthetic_2.cpp
 )
 
-target_include_directories(test PRIVATE
-  "${CMAKE_SOURCE_DIR}"
-)
-
-target_link_libraries(test PRIVATE
+target_link_libraries(teju_test
   Boost::multiprecision
   common
   gtest_main
